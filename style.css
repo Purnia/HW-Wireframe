@@ -9,18 +9,16 @@ body{
      background-color: #777;
      width: 960px;
      font-size: 18px;
+     margin: 0 auto;
+     padding: 10px;
 }
-
-.wrapper{
-    width:306px;
-    margin: 0 auto;
-}
+  
 
 #header{
     background-color:#ebebeb;
     padding:40px;
     margin-bottom: 10px;
-    width: 800px;
+    
     text-align: center;
 
 }
@@ -29,7 +27,7 @@ body{
     background-color:#ebebeb;
     padding:40px;
     margin-bottom: 10px;
-    width: 800px;
+    
     text-align: center;
 }
 
@@ -41,6 +39,8 @@ body{
     float: left;
     position:relative;
     text-align: center;
+
+
     
    
 
@@ -48,6 +48,7 @@ body{
 }
 
 #article{
+    clear:left;
     background-color:#777;
     color: white;
     padding:10px;
@@ -98,9 +99,9 @@ body{
     padding:10px; 
     text-align: center;
     margin-bottom: 10px;
-    width:300px;
+    width:-webkit-fill-available;
     height:300px;
-    margin-left:500px;
+    margin-left:505px;
     
     
     
@@ -113,6 +114,9 @@ body{
     background-color: #ebebeb;
     padding:40px;
     margin-top:10px;
-    width: 800px;
+    width: -webkit-fill-available;
     text-align: center;
 }
+
+
+
